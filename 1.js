@@ -1,9 +1,8 @@
+function send_text() {
+  var txt = document.getElementById('text').value;
+  var result = document.getElementById('result');
+  document.getElementById('result').innerHTML = txt;
+}
 
-var array = ["1", "2", "3"];
+document.getElementById('send').addEventListener('click', send_text);
 
-function myFunc(){
-  array.forEach(function(item) {
-    console.log(item);
-  });
-};
-myFunc();

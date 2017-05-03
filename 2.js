@@ -1,1 +1,3 @@
-// console.log('2');
+// var a = !-5;
+
+// console.log(a);
