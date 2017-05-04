@@ -1,4 +1,8 @@
-.old-block {
+.first {
   background-color: #d85353;
+  padding: 20px;
+}
+.second {
+  background-color: #525252;
   padding: 20px;
 }

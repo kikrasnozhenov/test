@@ -6,6 +6,12 @@ function send_text() {
 
 document.getElementById('send').addEventListener('click', send_text);
 
-document.getElementById("change-color").addEventListener("click", function(){
-    this.style.backgroundColor = "#525252";
+var first = document.getElementById('first');
+first.addEventListener("click", function(){
+    this.style.background = "#525252";
+});
+
+var second = document.getElementById('second');
+second.addEventListener("click", function(){
+    this.style.background = "#fff";
 });
