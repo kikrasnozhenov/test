@@ -6,3 +6,6 @@ function send_text() {
 
 document.getElementById('send').addEventListener('click', send_text);
 
+document.getElementById("change-color").addEventListener("click", function(){
+    this.style.backgroundColor = "#525252";
+});
