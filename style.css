@@ -6,3 +6,10 @@
   background-color: #525252;
   padding: 20px;
 }
+
+.dragNdrop-block {
+  margin: 40px 30px;
+}
+.left-block {
+  float: right;
+}
