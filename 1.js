@@ -26,3 +26,8 @@ const squareSumOfSquares = function(a, b){
   return square(sumOfSquares(a, b));
 }
 console.log(squareSumOfSquares(1, 1));
+
+var getTriangleArea = function(h, b){
+  return 1 / 2 * h * b;
+}
+console.log(getTriangleArea(5, 10));
